@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px 30px;
+    padding: 8px;
+}
+
+.container {
+    background-color: rgb(236, 223, 231);
+    padding: 5px 10px 15px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    
+}
+
+select,
+textarea, .contact_name{
+width: 100%;
+padding: 12px;
+border-radius: 5px;
+}
+.pay{
+    height: 37px;
+    width: 20%;
+    border: rgb(180, 167, 180);
+    border-radius: 5px;
+    
+
+    
+}
+.main_head{
+    text-align: center;
+}
+@media all and (max-width:1000px) {
+    .container{
+        background-color:yellow;
+    }
+}
+}
+
+    

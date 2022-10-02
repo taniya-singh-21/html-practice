@@ -1,0 +1,37 @@
+@media all and (min-width:100px){
+    #sidebar ul li a:after{
+        content: "("attr(data-email)")";
+        color: rgb(122, 166, 166);
+        font-style: italic;
+        font-size: medium;
+    }
+}
+#sidebar{display: table-cell;
+	width: 15%;
+	vertical-align: top;
+
+}
+#main{
+    display: table-cell;
+	width: 85%;
+	vertical-align: top;
+}
+#portfolio{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+@media all and (max-width:100px){
+    #sidebar ul li a:before{
+        content: "E-mail";
+        color: rgb(45, 203, 50);
+        font-style: italic;
+        font-size: medium;
+    }
+}
+media all and (min-width:1000px){
+    #sidebar ul li a{
+        padding: 21px;
+        background-image: url(/media/sourav/taniya/html/static/images/logo.jpeg) center no-repeat left;
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+        .wavy{
+            color: hotpink; 
+            font-weight: bold;
+            text-shadow: 78%;
+        }
+        .wavy{
+            color: aqua;
+            font-weight: lighter;
+            text-shadow: 78%;
+        }
+        ul#wave li{
+            color: chocolate;
+            font-weight: lighter;
+        }/*whose specificity number is greater that ones properties will display*/
+        </style>
+        <link rel="stylesheet" href="specificity.css">
+</head>
+<body>
+    <ul id="wave">
+        <li>fruity</li>
+        <li>mazza</li>
+        <li>appy</li>
+        <li class="wavy">coca cola</li>
+    </ul>
+</body>
+</html>

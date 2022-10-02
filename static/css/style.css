@@ -1,0 +1,75 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+nav a:hover{
+    color: tomato;
+}
+nav a :visited{
+    color: blue;
+}
+nav a :active{
+    color: green;
+}
+
+
+h3{
+    padding: 15px;
+    background-color: cornflowerblue;
+    color: rgb(202, 9, 25);
+}
+h2{
+    color: darkblue;
+    font-style: calc();
+    font-weight: bolder;
+}
+nav{overflow: hidden;
+    background-color: rgb(19, 18, 17);
+    font-style: italic;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+footer{overflow: hidden;
+    background-color: rgb(19, 22, 22);
+    font-weight: bold;
+    font-style: italic;
+}
+footer a:hover{
+color: red;
+}
+footer a :visited{
+    color: blue;
+}
+footer a :active{
+color: green;
+}
+h1{
+    
+    
+    color: rgb(124, 19, 185);
+}
+body{
+background-color: rgb(53, 218, 122);}
+iframe{
+    height: 230px;
+}
+.taniya{
+    width: 359px;
+    height: 457px;
+    border: 4px solid black;
+    margin: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,41 @@
+p,a{
+    color: chartreuse;
+}
+/*li{
+    list-style: lower-alpha;
+}*/
+/*.special{
+    color: crimson;
+    font-style: oblique;
+    font-weight: bold;
+}*/
+p em {
+    color: blue;
+}
+h1+p{
+    color: red;
+}
+a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+    #headiing{
+        color: rgb(139, 127, 61);
+    }
+    li[class]{
+        font-weight: bolder;
+        background-color: aqua;
+    }
+    *{
+        list-style: none;
+    }h1{
+        color:rgb(99, 57, 138);
+        background-color: darkkhaki;
+    }
+*{
+    background-color: rgba(0, 255, 191, 0.548);
+    background-image:url(../static/images/ram-ghat.jpg) ;
+    background-repeat: repeat;
+    background-position: bottom 50px right 100 px;
+
+}
